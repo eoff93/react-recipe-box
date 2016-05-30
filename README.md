@@ -1,1 +1,1 @@
-# my-react-starter
+# react-recipe-box
