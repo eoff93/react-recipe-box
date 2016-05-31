@@ -1,11 +1,11 @@
 import React from 'react';
-import Ingredient from './IngredientList/Ingredient';
+import IngredientList from './IngredientList';
 
 export default class Layout extends React.Component {
   render() {
     return (
       <main className="container">
-        <Ingredient />
+        <IngredientList />
       </main>
     );
   }
