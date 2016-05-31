@@ -1,6 +1,6 @@
 import React from 'react';
 import Ingredient from './IngredientList/Ingredient';
-import { PanelGroup } from 'react-bootstrap';
+import { ListGroup } from 'react-bootstrap';
 
 export default class IngredientList extends React.Component {
   render() {
@@ -11,11 +11,11 @@ export default class IngredientList extends React.Component {
           <hr />
         </div>
 
-        <PanelGroup>
+        <ListGroup fill>
           <Ingredient />
           <Ingredient />
           <Ingredient />
-        </PanelGroup>
+        </ListGroup>
       </div>
     );
   }
