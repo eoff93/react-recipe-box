@@ -1,9 +1,10 @@
 import React from 'react';
 
-export default class Title extends React.Component {
-  render() {
-    return (
-      <h4>RecipeTitle</h4>
-    );
-  }
-}
+const Title = function Title() {
+  return (
+    <h4>RecipeTitle</h4>
+  );
+};
+
+
+export default Title;
