@@ -7,7 +7,7 @@ export default class IngredientList extends React.Component {
     return (
       <div>
         <div className="text-center">
-          <h3>Ingredients</h3>
+          <h4>Ingredients</h4>
           <hr />
         </div>
 
