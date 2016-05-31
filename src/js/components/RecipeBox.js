@@ -5,7 +5,7 @@ import { Panel } from 'react-bootstrap';
 export default class RecipeBox extends React.Component {
   render() {
     return (
-      <Panel collapsible defaultExpanded header="Recipe Title" bsStyle="primary">
+      <Panel collapsible header="Recipe Title" bsStyle="primary">
         <IngredientList />
       </Panel>
     );
