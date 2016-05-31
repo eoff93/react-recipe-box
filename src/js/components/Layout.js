@@ -7,6 +7,8 @@ export default class Layout extends React.Component {
       <main className="container">
         <div className="well">
           <RecipeBox />
+          <RecipeBox />
+          <RecipeBox />
         </div>
       </main>
     );
