@@ -12,7 +12,7 @@ export default class IngredientList extends React.Component {
         </div>
 
         <ListGroup fill>
-          <Ingredient />
+          <Ingredient ingredients={this.props.ingredients} />
           <Ingredient />
           <Ingredient />
         </ListGroup>

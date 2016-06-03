@@ -3,8 +3,17 @@ import { ListGroupItem } from 'react-bootstrap';
 
 export default class Ingredient extends React.Component {
   render() {
+    /*
+    const ingredientList = this.props.ingredients.map(function(ingredient) {
+      return (
+
+      );
+    });
+    */
     return (
-      <ListGroupItem>Ingredient 1</ListGroupItem>
+      <ListGroupItem>
+        {this.props.ingredients}
+      </ListGroupItem>
     );
   }
 }

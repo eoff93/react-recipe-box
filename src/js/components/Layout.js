@@ -16,9 +16,10 @@ export default class Layout extends React.Component {
     return (
       <main className="container">
         <div className="well">
-          <RecipeBox />
-          <RecipeBox />
-          <RecipeBox />
+          <RecipeBox
+            title={this.state.recipes[0].title}
+            ingredients={this.state.recipes[0].ingredients}
+          />
         </div>
         <AddRecipe />
       </main>
